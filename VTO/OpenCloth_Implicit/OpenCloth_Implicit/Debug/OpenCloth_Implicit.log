@@ -1,0 +1,66 @@
+﻿生成启动时间为 2014/5/23 17:18:55。
+     1>项目“D:\快盘\硕士毕设\OpenCloth_Implicit\OpenCloth_Implicit\OpenCloth_Implicit.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\OpenCloth_Implicit.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\openGL\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(35): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(80): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(143): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(144): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(145): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(146): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(147): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(148): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(184): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(185): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\mesh.hpp(186): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\cloth.hpp(113): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(11): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(32): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(46): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(53): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\largevector.hpp(68): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\solver.hpp(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(87): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(109): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(115): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(131): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\todel\subdivision.hpp(137): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(737): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(742): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(747): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(752): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(757): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(762): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(767): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(826): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(826): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\快盘\硕士毕设\opencloth_implicit\opencloth_implicit\main.cpp(874): warning C4018: “<”: 有符号/无符号不匹配
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\快盘\硕士毕设\OpenCloth_Implicit\Debug\OpenCloth_Implicit.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\openGL\lib\x86\Debug" freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenCloth_Implicit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\快盘\硕士毕设\OpenCloth_Implicit\Debug\OpenCloth_Implicit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\快盘\硕士毕设\OpenCloth_Implicit\Debug\OpenCloth_Implicit.lib" /MACHINE:X86 Debug\OpenCloth_Implicit.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OpenCloth_Implicit.exe.embed.manifest" /manifest Debug\OpenCloth_Implicit.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         OpenCloth_Implicit.vcxproj -> D:\快盘\硕士毕设\OpenCloth_Implicit\Debug\OpenCloth_Implicit.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OpenCloth_Implicit.unsuccessfulbuild”。
+         正在对“Debug\OpenCloth_Implicit.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\快盘\硕士毕设\OpenCloth_Implicit\OpenCloth_Implicit\OpenCloth_Implicit.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.53

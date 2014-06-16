@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4688A3DB-0EEF-6C21-AF9D-837A8F7686DB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\Unzip.js" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\SHOnly.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Bumped_Ind_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\SkinTest.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\SkinTest_Unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_Transparent_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Detail_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance_Reflective_Bumped_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-Bumped_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\MobileToon_mod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Translucent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Rim_Trans_unlit.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance_Reflective_Parallax_Shaded_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Mobile_Spec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Bumped_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance_Reflective_Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Mapping_Shaded_Specular_SC.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_only.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Fast_Skin.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_transparent_sepspec_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance-Parallax_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Simple_SSS_Skin.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt_ptest_trans_cut.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\OutlineGlow\TopDrawShader.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Skinshader 1.3.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\TranslucencyVertex_SH.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflective_Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Distorted.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Rim_Transparent_1side_unlit.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_cutout_sspec_sharp.shader" />
+     <None Include="Assets\hl\tshirt\isotropic\SubsurfaceScattering.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite_Ptest.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_cutout_sspec_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance_Reflective_Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt_ptest_trans.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_transparent_sepspec_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_transparent_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Bumped_Diffuse_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Mobile_DSpec_unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_cutout_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Skinshader 1.3_sspec_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\OutlineGlow\DepthNormalTexture.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_only_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_only_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Skinshader 1.3_sspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite_Ptest_trans.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_Transparent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\MobileToon_mod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\Mobile_Spec_unmodulated.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance-Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_ramped_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Parallax_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_transparent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\ForceField.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\SHOnly_unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_cutout_sspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-BumpSpec_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance_Reflective_Parallax_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance_Reflective_Bumped_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_cutout_sspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-Diffuse_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Rim_Transparent_1side.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\CgHelper.cginc" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_cutout_sspec_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_cutout_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\Skinshader_pass2.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\Skinshader_pass1.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Rim_Transparent_2side.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\MLSSS_Skin_V1.21.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\MobileToon_mod_lightmapped.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance_Reflective_Bumped_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Translucency_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Rim_Transparent_1side.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\SkinTest.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_cutout_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-ParallaxSpec_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Simple_SSS_Skin_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Rim_Opaque.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\OutlineGlow\MixShader.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Detail_SC_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_cutout_sspec_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Detail_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite_trans.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\S5_depth.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-ParallaxSpec_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Distorted.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\IBL\Simple_IBL.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt_trans_cut.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\SHOnly.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Parallax_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Detail_SC.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_only.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Rim_Transparent_2side_unlit.shader" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Translucent_fresnel.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\Mobile_DSpec_unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_Transparent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Readme.txt" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\OutlineGlow\SecondPassShader.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Screen Space Subsurface Scattering\Skinshader_pass1_deferred.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Skinshader 1.3.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance-Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Skinshader 1.3_sspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_transparent_sepspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Simple_SSS_Skin.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Mapping_Specular_SC_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\ForceField_rim_1side.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Bumped_Diffuse_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\MobileToon_mod_lightmapped.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Detail_SC.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Mobile_Spec_unmodulated.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\CgHelper.cginc" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\GSH9.cginc" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Rim_Opaque.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Mapping_Specular_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflective_Parallax_Shaded_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\Skinshader_pass1_deferred.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_Transparent_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\ForceField_rim.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite_Ptest_trans_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-BumpSpec_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_ramped.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Mapping_Specular_SC_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance-Bumped_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\SHOnly_unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\CgHelper.cginc" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Parallax_Detail_shaded.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-Parallax_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Parallax_Detail_shaded.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Simple_SSS_Skin_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_outline_transparent_sepspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflective_Parallax_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Reflect-Glossy_Fresnel.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-Bumped_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Translucent_fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance_Reflective_Bumped_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance_Reflective_Parallax_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-Glossy_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_transparent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt_trans.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Translucent.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance-Bumped_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-Diffuse_Fresnel.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Rim_Transparent_2side.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Default\Monster_rough_lite_opt_ptest.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\OutlineGlow\BlurShader.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Mapping_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony_cutout_sspec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cook-Torrance-Parallax_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Detail_SC_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\TranslucencyVertex_SH.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\SkinTest_Unmod.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_transparent_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflect-Parallax_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Relief_Mapping_Specular_nshad.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Cartoony.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Mapping_Shaded_Specular_SC.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Skinshader 1.3_sspec_cutout.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Velvet_Silk.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\Rim_Opaque.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cook-Torrance_Reflective_Parallax_Shaded_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Monster\Lite\Monster_rough_lite_opt_newlite_trans_cut.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Rim_Opaque.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Screen Space Subsurface Scattering\CgHelper.cginc" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_ramped_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Bumped_Detail.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_ramped.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_cutout_sharp.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Reflective_Parallax_Shaded_Specular_Fresnel.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Free\Mobile_Spec.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Screen Space Subsurface Scattering\Skinshader_pass1.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Cartoony_outline_cutout_sspec.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\3.5\Relief_Mapping_Shaded_Specular.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Screen Space Subsurface Scattering\S5_mix.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\Mobile\Rim_Trans_unlit_doublesided.shader" />
+     <None Include="Assets\Chickens Shader Bundle\Shaders\ForceField_1side.shader" />
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>Assets\Qualcomm Augmented Reality\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
+ <HintPath>Assets\Editor\QCAR\Scripts\Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

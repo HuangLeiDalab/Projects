@@ -1,0 +1,50 @@
+﻿生成启动时间为 2014/5/14 21:54:59。
+     1>项目“E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\ClothSimulator\ClothSimulator.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\ClothSimulator.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\openGL\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLOTHSIMULATOR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clothSimulator.cpp
+         clothSimulator.cpp
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(80): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(148): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(149): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(150): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(151): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(152): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(153): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(154): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(190): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(191): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\mesh.hpp(192): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\cloth.hpp(113): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(9): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(23): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(30): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(37): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(51): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(58): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\largevector.hpp(66): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\huanglei\code\opencloth_implicit_v3.0\opencloth_implicit\clothsimulator\solver.hpp(12): warning C4305: “初始化”: 从“double”到“const float”截断
+       ManifestResourceCompile:
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ClothSimulator.dll.embed.manifest.res" Debug\ClothSimulator_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\openGL\lib\x86\Debug" freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ClothSimulator.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.lib" /MACHINE:X86 /DLL Debug\ClothSimulator.dll.embed.manifest.res
+         Debug\clothSimulator.obj
+            正在创建库 E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.lib 和对象 E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.exp
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ClothSimulator.dll.embed.manifest" /manifest Debug\ClothSimulator.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ClothSimulator.vcxproj -> E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\Debug\ClothSimulator.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ClothSimulator.unsuccessfulbuild”。
+         正在对“Debug\ClothSimulator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\HuangLei\Code\OpenCloth_Implicit_v3.0\OpenCloth_Implicit\ClothSimulator\ClothSimulator.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.09

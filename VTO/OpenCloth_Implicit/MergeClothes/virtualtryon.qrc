@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/VirtualTryon">
+        <file>Resources/back1.png</file>
+        <file>Resources/front1.png</file>
+    </qresource>
+</RCC>
